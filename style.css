@@ -20,7 +20,7 @@ body {
   font-size: 20px;
 }
 
-#input-el {
+input {
   display: block;
   margin: 0 auto;
   width: 70px;
@@ -35,7 +35,10 @@ body {
   background-color: #6943ff;
 }
 
-textarea:focus,
+::placeholder {
+  color: #fff;
+}
+
 input:focus {
   outline: none;
 }
